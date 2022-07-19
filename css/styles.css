@@ -1,23 +1,4 @@
-#nav {
-    background-color: blue;
-}
-
-#left-column {
-    
-}
-
-#right-column {
-    background-color: red;
-}
-
-#footer {
-    background-color: yellow;
-}
-
-#nav, #footer {
-    height: 75px;
-}
-
-#left-column, #right-column {
-    height: 500px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
